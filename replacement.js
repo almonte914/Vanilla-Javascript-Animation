@@ -22,6 +22,6 @@ function rotate(){
     counter++;
     setTimeout('rotate()',50);
 }
-// load events works after everythign loads, so all of the frames downlaod
+// load events works after everythign loads, so all of the frames download
 window.addEventListener('load', rotate);
 
